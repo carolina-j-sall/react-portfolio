@@ -15,7 +15,7 @@ function Preview (props) {
 			<p className="previewTags">{props.tags.map(createTag)}</p>
       <h2 className="previewTitle">{props.title}</h2>
 			<p className="previewDesc">{props.desc}</p>
-      <button className="previewBtn">Read more</button>
+      <button className="btn previewBtn">Read more</button>
 		</div>
 	)
 };
