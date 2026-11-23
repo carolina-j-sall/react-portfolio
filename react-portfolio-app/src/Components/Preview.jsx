@@ -12,9 +12,10 @@ function Preview (props) {
    return (
 		<div className="previewCard">
 			<img src={props.image} alt="profile picture icon" className="previewImg"/>
-			<h2 className="previewTitle">{props.title}</h2>
-      <p className="previewTags">{props.tags.map(createTag)}</p>
-			<p className="previewDesc">This is a description</p>
+			<p className="previewTags">{props.tags.map(createTag)}</p>
+      <h2 className="previewTitle">{props.title}</h2>
+			<p className="previewDesc">{props.desc}</p>
+      <button className="previewBtn">Read more</button>
 		</div>
 	)
 };
