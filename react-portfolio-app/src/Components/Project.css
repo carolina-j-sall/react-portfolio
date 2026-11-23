@@ -1,0 +1,64 @@
+.projectArticle {
+  width: 800px;
+  border: 1px solid red;
+}
+
+.projectFullImg {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.projectContainer {
+  width: 80%;
+}
+
+.projectTitle {
+  color: hotpink;
+  margin-bottom: 20px;
+}
+
+.projectDesc {
+  font-weight: 300;
+}
+
+.projectDetails {
+  width: 50%;
+  margin: 1em 0;
+  padding: 1em;
+  border: 3px dotted hotpink;
+}
+
+.projectTags {
+  margin: 20px 0 20px 0;
+}
+
+.projectTag {
+  background-color: rgba(255, 192, 203, 0.302);
+  color: hotpink;
+  border-radius: 50px;
+  width: 15%;
+  padding: 5px 12px;
+  margin: 0 8px 0 0;
+}
+
+.projectTag:hover {
+  background-color: hotpink;
+  color: #fff;
+}
+
+.projectBtn {
+  background-color: hotpink;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.projectBtn:hover {
+  background-color: rgba(255, 105, 180, 0.238);
+  color: hotpink;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+
